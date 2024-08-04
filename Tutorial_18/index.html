@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+/* .box{
+    background-color: aqua;
+} */
+.box1{
+    color: rgb(243, 0, 182);
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(27, 56, 240);
+    border: 5px solid rgb(245, 15, 15);
+    height: 200px;
+    box-sizing: border-box;
+    /* this boreder-box sizing includes the padding & border margin which is out which is not included */
+}
+.box2{
+    color: blueviolet;
+    background-color: blanchedalmond;
+    color: rgb(243, 0, 182);
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(27, 56, 240);
+    border: 5px solid rgb(0, 0, 0);
+    height: 200px;
+    box-sizing: border-box;
+    /* margincolaps if two elements margin are overlapping then the element which have more value will be copied */
+}
+
+ 
+
+
+
+    </style>
+</head>
+<body>
+    </div>
+    <div class="box box1">iam box 1</div>
+    <div class="box box2">iam box 2</div>
+</body>
+</html>

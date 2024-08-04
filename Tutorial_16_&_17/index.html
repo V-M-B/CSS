@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        div{
+            background-color: brown;
+        }
+        .green{
+            background-color: aqua;
+        }
+
+        #yellow{
+            background-color: yellow;
+        }
+
+        /* child selector > it sud be the direct selector*/
+        div > p{
+            background-color: blueviolet;
+        }
+
+        /* descendant selector>the child may not be the direct  */
+        div p{
+            color: antiquewhite;
+        }
+
+        /* universal selectors */
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+
+
+        
+        /* Pseudo selectors */
+        a:visited{
+            color: greenyellow;
+        }
+        a:link{
+            color: midnightblue;
+        }
+        a:active{
+            background-color: aquamarine;
+        }
+        a:hover{
+            background-color: black;
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <div>
+        Iam a div
+    </div>
+
+    <!-- class selector (.) -->
+    <span class="green">
+        iam span
+    </span>
+
+    <div id="yellow">
+        iam id selector
+    </div>
+
+    <div>
+        <p>i am child selected</p>
+    </div>
+
+<a href="http://histroy.com"histroy></a>
+<a href="http://netgeo.com">netgeo</a>
+<a href="http://bobbuilder.com">bobbuilder</a>
+
+</body>
+</html>
