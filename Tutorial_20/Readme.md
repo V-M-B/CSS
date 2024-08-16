@@ -1,1 +1,1 @@
-# Exercise 2 - CSS Challenge | Sigma Web Development Course - Tutorial #20
+# Exercise 2 - CSS Challenge | Sigma Web Development Course  Tutorial #20
