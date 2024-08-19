@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            font-size: 12px;
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+        border: 1px solid black;
+        background-color: aqua;
+        /* width: 1590px; */
+        /* px is 196 of an inch */
+
+        width: 100vw;
+        /* view port weight > it takes what the view port width is/it helps in responsiveness*/
+        /*we can only use it for line element not for block element   */
+        }
+
+        .container{
+            width: 100vw;
+            margin: 10px auto;
+            
+        }
+
+        .container p{
+            /* font-size: 1.5em; */
+            /* font-size: 1.5rem; */
+            /* it has inherited form the root and doubled it with the value */
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        this is box
+    </div>
+
+    <div class="container">
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit expedita numquam eligendi quisquam molestias adipisci praesentium iusto, obcaecati porro corrupti.</p>
+    </div>
+</body>
+</html>
