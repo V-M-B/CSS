@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        body{
+            background-color: red;
+            color: aliceblue;
+        }
+        @media only screen and (max-width:500px) {
+            body{
+                background-color: aquamarine;
+            }
+
+
+            .boxs{
+   flex-direction: column;
+}
+        }
+.boxs{
+    display: flex;
+}
+.box{
+    width: 344px;
+    height: 344px;
+    background-color: black;
+    padding: 3px;
+    margin: 3px;
+}
+
+
+    </style>
+
+    
+</head>
+<body>
+    <div>
+        hey iam a red body
+    </div>
+
+    <div class="boxs">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>

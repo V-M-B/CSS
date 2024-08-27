@@ -1,0 +1,17 @@
+body{
+    background-color: gray;
+}
+
+.content{
+    background-color: azure;
+    
+     
+}
+.ul{
+    display: flex;
+   padding-left: 1px;
+}
+
+ul li{
+    list-style: none;
+    }
